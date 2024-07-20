@@ -23,6 +23,7 @@ ScrollTrigger.refresh();
 }
 LocomotiveAnimation();
 
+
 function LoadingPageAnimation(){
   var tl = gsap.timeline()
     tl.from(".page1", {
@@ -49,7 +50,7 @@ function LoadingPageAnimation(){
 LoadingPageAnimation();
 
 function navAnimation(){
-  let nav = document.querySelector('nav');
+  let nav = document.querySelector('.nav-p2');
 nav.addEventListener('mouseenter',function(){
   gsap.to('.nav-bottom',{
     height:'23vh',
@@ -58,6 +59,7 @@ nav.addEventListener('mouseenter',function(){
   gsap.to('.nav-p2 h5',{
     delay:0.3,
     display:'block',
+    opacity:1
   })
   gsap.from('.nav-p2 h5 span',{
     display:'block',
@@ -75,6 +77,7 @@ nav.addEventListener('mouseleave',function(){
   gsap.to('.nav-p2 h5',{
     display:'none',
     duration:0.02,
+    opacity:0
   })
 })
 }
@@ -182,4 +185,5 @@ function page6Animation(){
   })
 }
 page6Animation();
+
 

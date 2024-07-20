@@ -43,6 +43,7 @@ nav{
 .nav-p2 h5{
   margin-bottom: 1vw;
   display: none;
+  opacity: 0;
   overflow: hidden;
 }
 .nav-bottom{
@@ -638,4 +639,107 @@ summary::marker{
   height: 100vh;
   width: 100%;
   background: #111;
+}
+
+@media (max-width:600px){
+  nav{
+    height: 6vh;
+  }
+  nav h1{
+    font-size: 8vw;
+  }
+  .nav-p2 {
+    display: none;
+  }
+  nav .button{
+    width: 106px;
+    margin-top: 4px;
+  }
+  nav .button p{
+    font-size: 3vw;
+  }
+  nav .button svg{
+    height: 1.28vh;
+  }
+
+  .page1{
+    height: 100vh;
+  }
+  .moving-div{
+    height: 15vh;
+  }
+  .moving-div .move img{
+    height: 6.3vw;
+  }
+
+  .page2{
+    height: 40vh;
+  }
+  .page2-left p{
+    font-size: 1.8vw;
+  }
+  .page2-left h5 {
+    font-size: 2.3vw;
+  }
+  .right-elem{
+    height: 11vh;
+  }
+
+  .page4{
+    min-height: 40vh;
+    padding: 5vh 0;
+  }
+  .section{
+    height: 20vh;
+    padding: 0 10vw;
+  }
+  .sec-right {
+    height: 13vh;
+  }
+  .sec-left {
+    height: 13vh;
+  }
+  .page5{
+    min-height: 87vh;
+  }
+  .page5-content .flex {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+  .page5-content .flex h4 {
+    padding: 5px 10px;
+    font-size: 1.8vw;
+  }
+  .page5-elem{
+    padding-bottom: 1vh;
+  }
+  .page6{
+    padding: 4vh 3vw;
+    min-height: 75vh;
+  }
+  .page6>h1{
+    padding-bottom: 4vh;
+  }
+  .page6-content {
+    padding-top: 8vw;
+  }
+  .page6-content .right-6 p {
+    font-size: 3.5vw;
+  }
+  .blue-btn{
+    width: 24vw;
+        height: 8.5vw;
+  }
+  .blue-btn h4{
+    font-size: 1.85vw;
+  }
+  .btm6-parts {
+    padding: 1vh 0.6vw;
+  }
+  .btm6-parts h5 {
+    margin-bottom: 1vh;
+  }
+  .page6-bottom{
+    height: 18vh;
+  }
 }
