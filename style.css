@@ -652,14 +652,7 @@ summary::marker{
     display: none;
   }
   nav .button{
-    width: 106px;
-    margin-top: 4px;
-  }
-  nav .button p{
-    font-size: 3vw;
-  }
-  nav .button svg{
-    height: 1.28vh;
+    display: none;
   }
 
   .page1{
